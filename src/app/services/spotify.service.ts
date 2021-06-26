@@ -9,7 +9,7 @@ import { map } from 'rxjs/Operators';
 export class SpotifyService {
 
   httpOptions = {
-    headers: new HttpHeaders({ 'Authorization': 'Bearer BQBoOJ7mYpbzvegkZ1JlPro17amsejTsLwQXS7-6IAX2ka5OAyb9UlMYRM-rkcZhhq1sBd3sheegrUZi5-Y' })
+    headers: new HttpHeaders({ 'Authorization': '' }) /* token generated consuming Spotify API */
   };
   constructor(private http: HttpClient) {
     console.log("Service spotify listoooooo");
